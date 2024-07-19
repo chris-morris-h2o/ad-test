@@ -12,6 +12,10 @@
   includeEnvironmentVariables = [
     # Add any ENV vars that should be available to the web side to this array
     # See https://redwoodjs.com/docs/environment-variables#web
+            "AZURE_ACTIVE_DIRECTORY_CLIENT_ID",
+            "AZURE_ACTIVE_DIRECTORY_AUTHORITY",
+            "AZURE_ACTIVE_DIRECTORY_REDIRECT_URI",
+            "AZURE_ACTIVE_DIRECTORY_LOGOUT_REDIRECT_URI"
   ]
 [api]
   port = 8911
