@@ -56,6 +56,7 @@ export const isAuthenticated = () => {
   console.log(Object.keys(context))
   console.log(Object.values(context))
   console.log(Object.entries(context))
+  console.log(context.currentUser)
 
   return !!context.currentUser
 }
