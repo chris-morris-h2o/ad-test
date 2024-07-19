@@ -48,10 +48,9 @@ export const getCurrentUser = async (decoded) => {
  *
  * @returns {boolean} - If the currentUser is authenticated
  */
-export const isAuthenticated = async () => {
+export const isAuthenticated = () => {
   console.log("getting current context")
   console.log(Object.getOwnPropertyDescriptor(context, 'currentUser'))
-  console.log(await getCurrentUser(Object.getOwnPropertyDescriptor(context, 'currentUser')))
   //console.log(context)
   //get all keys and objects in context for logging:
   //console.log(Object.keys(context))
